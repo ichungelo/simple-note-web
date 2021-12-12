@@ -56,7 +56,7 @@ include('handler.php');
     </section>
     <!-- Card container End -->
     <!-- Footer -->
-    <section class="container-liquid text-center bg-light mt-3">
+    <section class="container-liquid text-center bg-light mt-3 shadow-lg">
       <h2 class="col-12">Contact Me</h2>
       <div class="mt-3">        
         <h4>Phone</h4>
