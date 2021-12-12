@@ -1,7 +1,7 @@
 <?php
 include("config.php");
 // GET ALL NOTES
-$getAllNotesQuery = "SELECT * FROM notes";
+$getAllNotesQuery = "SELECT * FROM notes ORDER BY updatedAt DESC";
 $getAllNotesHandler = mysqli_query($connection, $getAllNotesQuery) or die(mysqli_error($connection));
 
 // GET NOTE BY ID
