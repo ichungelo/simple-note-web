@@ -34,15 +34,10 @@ body {
 }
 
 .card {
-  position: unset;
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
   padding: 10px;
-}
-
-.behind-nav {
-  position: unset;
 }
 
 .brand-name {

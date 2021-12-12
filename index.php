@@ -21,7 +21,7 @@ include('handler.php');
   </head>
   <body>
     <!-- Nav -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm nav-custom" >
+    <nav class="navbar navbar-default navbar-light bg-light shadow-sm fixed-top">
       <a class="navbar-brand brand-name" href="./index.php">
         <img src="./assets/img/Group 3.png" width="30" height="30" class="d-inline-block align-top shadow-sm" alt="">
          Librarian
