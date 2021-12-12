@@ -54,19 +54,21 @@ include('handler.php');
       ?>
       </div>
     </section>
-    <footer class="text-center bg-light row">
+    <!-- Card container End -->
+    <!-- Footer -->
+    <section class="container-liquid text-center bg-light mt-3">
       <h2 class="col-12">Contact Me</h2>
-      <div class="col-12 mt-3">        
+      <div class="mt-3">        
         <h4>Phone</h4>
         <a href="tel:+628998740995" class="btn btn-outline-success btn-sm">+62899 8740 995</a>
       </div>
-      <div class="col-12 mt-3">
+      <div class="mt-3">
         <h4>Mail</h4>
         <a href="mailto:krisna.s.362@gmail.com" class="btn btn-outline-success btn-sm">krisna.s.362@gmail.com</a>
       </div>
-      <div class="col-12">
+      <div class="mt-3">
         <h2>Catch me on social media</h2>
-        <div class="about-content">
+        <div>
           <a href="https://web.facebook.com/ichungelo/" target="_blank"><img class="about-social-icon" src="/assets/img/tabler-icon-brand-facebook.png" alt="facebook-icon"></a>
           <a href="https://twitter.com/ichungelo" target="_blank"><img class="about-social-icon" src="/assets/img/tabler-icon-brand-twitter.png" alt="twitter-icon"></a>
           <a href="https://www.instagram.com/ichungelo/" target="_blank"><img class="about-social-icon" src="/assets/img/tabler-icon-brand-instagram.png" alt="instagram-icon"></a>
@@ -75,11 +77,11 @@ include('handler.php');
           <a href="https://api.whatsapp.com/send?phone=628998740995&text=Hi" target="_blank"><img class="about-social-icon" src="/assets/img/tabler-icon-brand-whatsapp.png" alt="wa-icon"></a>
         </div>
       </div>
-      <div class="col-12" style="background-color: #238011; margin: 12px 0 0 0; color: white">
+      <div class="mt-3" style="background-color: #238011; color: white">
         Copyright &#169 Ichungelo inc 2021, All rights reserved
       </div>
-    </footer>
-    <!-- Card container End -->
+    </section>
+    <!-- Footer End -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
   </body>
