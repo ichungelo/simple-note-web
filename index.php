@@ -40,11 +40,11 @@ include('handler.php');
         $createTime = $note['createdAt'];
         $updateTime = $note['updatedAt'];
       ?>
-      <div class="card mt-3" style="<?= $note['backgroundColor']?>" >
+      <div class="card mt-3" style="<?= htmlspecialchars($note['backgroundColor'])?>" >
         <div class="card-body">
-          <h5 class="card-title"><?= $note["title"]?></h5>
+          <h5 class="card-title"><?= htmlspecialchars($note["title"]) ?></h5>
           <h6 class="card-subtitle text-secondary"><?= $createTime !== $updateTime ? "Updated at: $updateTime" : "Created at: $createTime" ?></h6>
-          <p class="card-text"><?= $note["body"]?></p>
+          <p class="card-text"><?= htmlspecialchars($note["body"]) ?></p>
           <a href="notes.php?id=<?= $note['id']?>" class="btn btn-success btn-sm btn-block" rows="4">Edit</a>
           <a href="delete.php?id=<?= $note['id']?>" class="btn btn-danger btn-sm btn-block" onclick="return confirm('Are you sure you want to delete this item')">Delete</a>
         </div>
