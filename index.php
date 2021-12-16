@@ -32,7 +32,7 @@ include('handler.php');
     </nav>
     <!-- Nav  End-->
     <!-- Card container -->
-    <section class="container">
+    <section class="container min-vh-100">
       <div class="card-columns">
       <?php
       include('./handler.php');
