@@ -17,10 +17,7 @@ if (isset($_POST['add'])) {
   $title = $_POST['title'];
   $body = $_POST['body'];
   $backgroundColor = $_POST['backgroundColor'];
-  date_default_timezone_set('Asia/Jakarta');
-  $createdAt = date("Y-m-d H:i:sa");
-  $updatedAt = $createdAt;
-  $postNoteQuery = "INSERT INTO notes (title, body, backgroundColor, createdAt, updatedAt) VALUES ('$title', '$body', '$backgroundColor', '$createdAt', '$updatedAt')";
+  $postNoteQuery = "INSERT INTO notes (title, body, backgroundColor) VALUES ('$title', '$body', '$backgroundColor')";
 
   $postNoteHandler = mysqli_query($connection, $postNoteQuery) or die(mysqli_error($connection));
   if ($postNoteHandler) {
@@ -43,8 +40,6 @@ if (isset($_POST['edit'])) {
   $title = $_POST['title'];
   $body = $_POST['body'];
   $backgroundColor = $_POST['backgroundColor'];
-  date_default_timezone_set('Asia/Jakarta');
-  $updatedAt = date("Y-m-d H:i:sa");
 
   $editNoteQuery = 
   "UPDATE
@@ -53,7 +48,6 @@ if (isset($_POST['edit'])) {
       title = '$title',
       body = '$body',
       backgroundColor = '$backgroundColor',
-      updatedAt = '$updatedAt'
     WHERE
       id = '$id'";
 
