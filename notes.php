@@ -29,7 +29,7 @@ include('handler.php');
     </nav>
     <!-- Nav End -->
     <!-- Form -->
-    <section class="container">
+    <section class="container min-vh-100">
       <div class="card">
         <div class="card-body">
           <form class="was-validated" method="POST">
